@@ -1,0 +1,22 @@
+{
+  "name": "discordjs-template-bun",
+  "author": "cactusdev",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch run index.ts",
+    "start": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@topcli/spinner": "^2.1.2",
+    "discord.js": "^14.14.1",
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0"
+  }
+}
